@@ -22,7 +22,7 @@
 
 .wrapper span {
     position: absolute;
-    left: 24%;
+    left: 29.7%;
     top: 12px;
 }
 
@@ -40,6 +40,18 @@
 
 }
 
+.search-btn, .nav-btn {
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+}
+
 .search-btn {
-    margin-top: 20px;
+    margin: 30px 4px 11px 4px;
+}
+.nav-btn {
+    margin: 11px 4px;
 }
