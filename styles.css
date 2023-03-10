@@ -72,49 +72,44 @@
   border-bottom: 1px solid #ebebeb;
 }
 
-.advanced-search-container {
+.adv-search-cont {
   margin: 50px 40px;
 }
 
-.advanced-search-container .find-label {
+.adv-search-cont .find-label {
   display: inline-block;
   width: 16%;
   font-size: 17px;
 }
 
-.advanced-search-container .whitespace {
-  display: inline-block;
-  width: 50%;
-}
-
-.advanced-search-container .form-group {
+.adv-search-cont .form-group {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  margin-top: 10px;
   padding: 10px 0;
 }
 
-.advanced-search-container .form-group label {
+.adv-search-cont .form-group label {
   width: 16%;
   font-size: 13px;
 }
 
-.advanced-search-container .form-group input[type="text"] {
+.adv-search-cont .form-group input[type="text"] {
   width: 49%;
   padding: 2px 0;
 }
 
-.clarification {
+.more {
   font-size: 11px;
   width: 30%;
   margin-left: 1%;
 }
 
-.advanced-search-container .form-group .clarification .monospace {
+.adv-search-cont .form-group .more .monospace {
   font-family: monospace;
 }
 
-.advanced-search-container .form-group .right-align {
+.adv-search-cont .form-group .right-align {
   width: 50%;
 }
 
@@ -122,7 +117,7 @@ input[type="submit"]:hover {
   /* Add box-shadow when hovering button (border adds space) */
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
 }
-input.blue-button {
+input.adv-search-btn {
   background-color: dodgerblue;
   color: white;
   font-size: 11px;
@@ -147,6 +142,7 @@ input.blue-button {
 .to-do-label {
   display: inline-block;
   position: relative;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: bold;
   align-self: flex-end;
 }

@@ -37,16 +37,16 @@
       <label style="margin-left: 10px"> Advanced Search</label>
     </div>
     <div class="asbar-line"></div>
-    <div class="advanced-search-container">
+    <div class="adv-search-cont">
       <form action="https://www.google.com/search" method="get">
         <div class="flex-labels">
           <label class="find-label">Find pages with...</label>
           <label class="to-do-label">To do this in the search box.</label>
         </div>
         <div class="form-group">
-          <label>All these words:</label>
-          <input type="text" name="as_q" />
-          <div class="clarification">
+          <label class="flex-item">All these words:</label>
+          <input class="flex-item" type="text" name="as_q" />
+          <div class="flex-item more">
             Type the important words:
             <span class="monospace">tri-colour rat terrier</span>
           </div>
@@ -54,7 +54,7 @@
         <div class="form-group">
           <label>This exact word or phrase:</label>
           <input type="text" name="as_epq" />
-          <div class="clarification">
+          <div class="more">
             Put exact words in quotes:
             <span class="monospace">"rat terrier"</span>
           </div>
@@ -62,7 +62,7 @@
         <div class="form-group">
           <label>Any of these words: </label>
           <input type="text" name="as_oq" />
-          <div class="clarification">
+          <div class="more">
             Type OR between all the words you want:
             <span class="monospace">miniature OR standard</span>
           </div>
@@ -70,7 +70,7 @@
         <div class="form-group">
           <label>None of these words:</label>
           <input type="text" name="as_eq" />
-          <div class="clarification">
+          <div class="more">
             Put a minus sign just before words that you don't want:
             <span class="monospace">-rodent, -"Jack Russell"</span>
           </div>
@@ -80,7 +80,7 @@
           <div class="right-align">
             <input
               type="submit"
-              class="blue-button"
+              class="adv-search-btn"
               value="Advanced Search"
             />
           </div>
